@@ -1,0 +1,40 @@
+@import '../abstract/variables';
+
+#incentive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    .img-container{
+        margin-top: 3rem;
+    }
+
+    .text-container{
+        h3 {
+            font-size: $tamanho-texto / 2.5;
+            color: $cor-secundaria;
+            text-transform: uppercase;
+            font-weight: 300;
+            text-align: center;
+        }
+    
+        h4 {
+            text-align: center;
+            font-size: $tamanho-texto / 1.5;
+            font-weight: 300;
+            margin-bottom: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        p {
+            font-size: $tamanho-texto / 3;
+            font-weight: 500;
+            line-height: 1.25rem;
+            text-align: center;
+            width: 50rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
