@@ -28,4 +28,36 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #EEEEEE;
+  opacity: 0.85;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #053B50;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #176B87;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #176B87;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 80px;
 }/*# sourceMappingURL=style.css.map */
