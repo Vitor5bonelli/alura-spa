@@ -20,9 +20,21 @@
     }
 
     .cards{
+        display: flex;
+        justify-content: space-evenly;
 
         .card{
+            width: 360px;
+            text-align: center;
 
+            .img-container{
+                margin-bottom: 2px;
+                border-bottom: solid 6px $cor-secundaria;
+
+                img {
+                    max-width: 100%;
+                }
+            }
         }
 
     }
