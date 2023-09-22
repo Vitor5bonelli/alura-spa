@@ -69,10 +69,23 @@ nav ul li a:hover {
   width: 360px;
   text-align: center;
 }
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #176B87;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
 #servicos .cards .card .img-container {
   margin-bottom: 2px;
   border-bottom: solid 6px #176B87;
 }
 #servicos .cards .card .img-container img {
   max-width: 100%;
+  width: 40em;
 }/*# sourceMappingURL=style.css.map */

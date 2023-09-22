@@ -27,12 +27,28 @@
             width: 360px;
             text-align: center;
 
+            h5 {
+                font-size: $tamanho-texto / 1.5;
+                font-weight: 300;
+                margin-top: 25px;
+                margin-bottom: 20px;
+                color: $cor-secundaria;
+            }
+
+            p {
+                font-size: $tamanho-texto / 3;
+                font-weight: 500;
+                line-height: 1.25rem;
+            }
+
             .img-container{
                 margin-bottom: 2px;
                 border-bottom: solid 6px $cor-secundaria;
 
                 img {
                     max-width: 100%;
+                    width: 40em;
+                    
                 }
             }
         }
